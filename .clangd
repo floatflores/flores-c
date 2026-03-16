@@ -1,0 +1,4 @@
+Completion:
+  HeaderInsertion: Never
+CompileFlags:
+  Add: [-xc]

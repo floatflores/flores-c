@@ -1,0 +1,52 @@
+BasedOnStyle: GNU
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+
+BreakBeforeBraces: Allman
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  AfterExternBlock: false
+
+IndentExternBlock: NoIndent
+
+AlwaysBreakAfterReturnType: AllDefinitions
+AlignConsecutiveDeclarations: true
+
+# IndentPPDirectives: BeforeHash
+# PPIndentWidth: 4
+
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+
+IndentCaseLabels: true
+IndentCaseBlocks: false
+
+AlignConsecutiveAssignments: true
+AlignOperands: Align
+AlignTrailingComments: true
+AlignEscapedNewlines: Left
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: false
+SpacesInContainerLiterals: false
+
+SortIncludes: true
+
+...
